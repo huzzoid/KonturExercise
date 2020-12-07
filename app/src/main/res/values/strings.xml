@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KonturExercise</string>
+    <string name="unexpected_error">Unexpected error</string>
+</resources>

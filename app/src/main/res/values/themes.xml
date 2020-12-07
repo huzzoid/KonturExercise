@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.KonturExercise" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/fruitSalad</item>
+        <item name="colorPrimaryVariant">@color/fruitSaladAccent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/fruitSalad</item>
+        <item name="colorSecondaryVariant">@color/fruitSaladAccent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/amazon</item>
+    </style>
+
+
+    <style name="TextH1" parent="Theme.KonturExercise">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black_90</item>
+    </style>
+
+    <style name="TextH2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black_90</item>
+    </style>
+</resources>

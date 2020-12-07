@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fruitSalad">#4C9069</color>
+    <color name="amazon">#3D7254</color>
+    <color name="fruitSaladAccent">#4D8F69</color>
+    <color name="black_90">#E5000000</color>
+    <color name="black_50">#8A000000</color>
+    <color name="dodgerBlue">#269df7</color>
+    <color name="white">#FFFFFF</color>
+</resources>
