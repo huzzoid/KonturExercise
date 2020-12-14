@@ -1,7 +1,7 @@
 package com.huzzoid.konturexercise.di
 
+import com.huzzoid.konturexercise.data.repositories.ContactsRepositoryImpl
 import com.huzzoid.konturexercise.domain.repositories.ContactsRepository
-import com.huzzoid.konturexercise.domain.repositories.ContactsRepositoryImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

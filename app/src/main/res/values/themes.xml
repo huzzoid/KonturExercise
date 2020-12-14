@@ -9,16 +9,25 @@
         <item name="colorSecondaryVariant">@color/fruitSaladAccent</item>
         <item name="colorOnSecondary">@color/white</item>
         <item name="android:statusBarColor">@color/amazon</item>
+        <item name="colorControlNormal">@color/black_50</item>
     </style>
 
+    <style name="Toolbar" parent="Theme.KonturExercise">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
 
-    <style name="TextH1" parent="Theme.KonturExercise">
+    <style name="TextH1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black_90</item>
+    </style>
+
+    <style name="TextH2" parent="Theme.KonturExercise">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/black_90</item>
     </style>
 
-    <style name="TextH2">
-        <item name="android:textSize">14sp</item>
+    <style name="TextH6">
+        <item name="android:textSize">22sp</item>
         <item name="android:textColor">@color/black_90</item>
     </style>
 </resources>

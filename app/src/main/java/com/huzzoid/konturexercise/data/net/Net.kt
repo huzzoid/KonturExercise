@@ -1,14 +1,10 @@
 package com.huzzoid.konturexercise.data.net
 
+import io.reactivex.Single
 import retrofit2.http.GET
+import retrofit2.http.Path
 
 interface Net {
-    @GET("generated-01.json")
-    suspend fun load01(): List<ContactDto>
-
-    @GET("generated-02.json")
-    suspend fun load02(): List<ContactDto>
-
-    @GET("generated-03.json")
-    suspend fun load03(): List<ContactDto>
+    @GET("generated-{id}.json")
+    fun loadPart(@Path("id") id: String): Single<List<ContactDto>>
 }

@@ -17,7 +17,7 @@ class ContactViewHolder(
 
     fun bind(contact: Contact) {
         binding.name.text = contact.name
-        binding.height.text = contact.height
+        binding.height.text = contact.height.toString()
         binding.phone.text = contact.phone
     }
 }

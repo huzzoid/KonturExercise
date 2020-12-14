@@ -1,6 +1,7 @@
 package com.huzzoid.konturexercise.data.net
 
 import com.google.gson.annotations.SerializedName
+import com.huzzoid.konturexercise.data.db.ContactEntity
 
 data class ContactDto(
     @SerializedName("id")
@@ -10,7 +11,7 @@ data class ContactDto(
     @SerializedName("phone")
     val phone: String,
     @SerializedName("height")
-    val height: String,
+    val height: Float,
     @SerializedName("biography")
     val biography: String,
     @SerializedName("temperament")
@@ -26,3 +27,14 @@ data class ContactDto(
         val end: String
     )
 }
+
+fun ContactDto.toEntity() = ContactEntity(
+    id,
+    name,
+    phone,
+    height,
+    biography,
+    temperament,
+    educationPeriod.start,
+    educationPeriod.end
+)
